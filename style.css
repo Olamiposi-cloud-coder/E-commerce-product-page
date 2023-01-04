@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* 
+rgb(255, 255, 255);
+@font-face {
+    font-family: Kumbh Sans;
+    src: url(https: //fonts.google.com/specimen/Kumbh+Sans);
+} */
+ body{
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+ }
+
+a {
+    color: hsl(220, 14%, 75%);
+    text-decoration: none;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+strong{
+    cursor: pointer;
+    background: #ffefd5;
+    color: #ff7f50;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 8px 4px 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+span {
+    cursor: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 25px;
+}
+.avatar{
+    width: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    
+}
+.main-header{
+    width: 80%;
+    max-width: 1440px;
+    margin: 30px 130px;
+}
+
+/* nav */
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav ul li {
+    padding: 0 10px;
+}
+
+.main-nav ul.main-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.main-nav ul.main-menu1 {
+    flex: 1;
+    align-items: flex-end;
+    margin-left: 400px;
+}
+
+
+.showcase{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+}
+.showcase .product {
+    width: 400px;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.main-showcase {
+    margin: 50px 0 0 120px ;
+}
+
+.main-showcase h5 {
+    color: hsl(26, 100%, 55%);
+    margin-bottom: 10px;
+}
+
+.main-showcase h1 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.main-showcase h3 {
+    color: hsl(220, 14%, 75%);
+    font-size: 13px;
+    margin-bottom: 50px;  
+}
+
+.main-showcase p {
+    color: hsl(220, 14%, 75%);
+    margin-bottom: 10px;
+
+}
+
+.btn {
+    cursor: pointer;
+    border: 0;
+    background: hsl(223, 64%, 98%);
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.btn1{
+    cursor: pointer;
+    border: 0;
+    background: hsl(26, 100%, 55%);
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: white;
+    justify-content: space-between;
+}
+
+/* thumbnail card */
+.thumbnail {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+    
+}
+
+.thumb{
+    padding: 0px 10px 10px 10px;
+}
+.thumbnail img {
+    border-radius: 10px;  
+}
+
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.attribution a{
+    color: blue;
+}
